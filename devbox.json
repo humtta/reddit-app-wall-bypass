@@ -5,12 +5,5 @@
     "web-ext": "8.10.0",
     "android-tools": "35.0.2",
     "go-task": "3.48.0"
-  },
-
-  "shell": {
-    "scripts": {
-      "build": "web-ext build -s src/ -a out/ -o",
-      "lint": "web-ext lint -s src/"
-    }
   }
 }
