@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit App-Wall Bypass",
+  "description": "Bypasses Reddit app-wall.",
+  "version": "0.0.0",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@reddit-app-wall-bypass.humtta",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
