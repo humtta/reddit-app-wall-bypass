@@ -1,0 +1,32 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.4.16/schema.json",
+
+  "files": {
+    "includes": ["**", "!**/*.svg"]
+  },
+
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+
+  "formatter": {
+    "enabled": true,
+    "useEditorconfig": true
+  },
+
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
+
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "recommended": true
+    }
+  }
+}
