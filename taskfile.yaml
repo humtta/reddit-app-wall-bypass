@@ -11,3 +11,4 @@ tasks:
   run: web-ext run -s src/ -t firefox-android --adb-device $ADB_DEVICE --firefox-apk $FIREFOX_APK
   format: biome format --write .
   lint: biome check .
+  check: task format && task lint
