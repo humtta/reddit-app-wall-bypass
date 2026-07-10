@@ -9,3 +9,4 @@ tasks:
   build: web-ext build -s src/ -a out/ -o
   validate: web-ext lint -s src/
   run: web-ext run -s src/ -t firefox-android --adb-device $ADB_DEVICE --firefox-apk $FIREFOX_APK
+  format: biome format --write .
