@@ -13,7 +13,9 @@
       return;
     }
 
-    node.querySelectorAll(popupSelector).forEach((el) => el.remove());
+    node.querySelectorAll(popupSelector).forEach((el) => {
+      el.remove();
+    });
   }
 
   removePopupFromNode(document.documentElement);
